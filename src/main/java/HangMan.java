@@ -1,5 +1,9 @@
 public class HangMan{
-  public static void main(String[] args) {
-    
+  private String mAnswer;
+  private String mPastLetters;
+
+  public HangMan(String answer, String pastLetters){
+    mAnswer = answer;
+    mPastLetters = pastLetters;
   }
 }
