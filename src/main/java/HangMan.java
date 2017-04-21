@@ -13,4 +13,7 @@ public class HangMan{
   public boolean isNull(){
     return mPastLetters.equals("");
   }
+  public boolean isAllLetters(){
+    return mPastLetters.chars().allMatch(Character::isLetter);
+  }
 }

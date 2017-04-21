@@ -18,4 +18,10 @@ public class HangManTest{
     assertEquals(true, testHangMan.isNull());
   }
 
+  @Test
+  public void isAllLetters_whenNotAllLetters_false(){
+    HangMan testHangMan = new HangMan("end", "j4o*");
+    assertEquals(false, testHangMan.isAllLetters());
+  }
+
 }
