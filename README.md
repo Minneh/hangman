@@ -6,10 +6,10 @@ A simple command-line HangMan game.
 
 ## 21st April 2017
 
-###Technologies Used:
+### Technologies Used:
 
   * Java
 
-###Setup instructions:
+### Setup instructions:
 
 Clone repository from GitHub.
