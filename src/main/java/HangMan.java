@@ -10,4 +10,7 @@ public class HangMan{
     mAnswer = answer;
     mPastLetters = pastLetters;
   }
+  public boolean isNull(){
+    return mPastLetters.equals("");
+  }
 }
