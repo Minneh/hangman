@@ -6,6 +6,7 @@ public class HangMan{
   private String mPastLetters;
 
   public HangMan(String answer, String pastLetters){
+    //equate private variable tvalues to those in input
     mAnswer = answer;
     mPastLetters = pastLetters;
   }
