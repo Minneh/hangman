@@ -1,6 +1,6 @@
 # HangMan
 
-A simple command-line HangMan game.
+A simple command-line Hangman game.
 
 # Created by: Minneh Mugo
 
