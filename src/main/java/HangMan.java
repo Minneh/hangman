@@ -3,15 +3,11 @@ import java.util.Random;
 
 public class Hangman{
 
-  //declare private variables to hold the answer word and letters the uers has entered respectively
-
-  private String mAnswer;
-  private String mPastLetters;
-
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     Random random = new Random();
-    String[] guesses = {"reddit", "programming", "fruit", "doughnut"};
+    // String[] guesses = {"reddit", "programming", "fruit", "doughnut"};
+    String[] guesses = getWordList();
 
     boolean weArePlaying = true;
 
@@ -70,18 +66,18 @@ public class Hangman{
     }
       return true;
   }
-
-  public Hangman(String answer){
-    //equate private variable tvalues to those in input
-    mAnswer = answer;
-  }
-
-  public boolean isNull(){
-    return mAnswer.equals("");
-  }
-
-  public boolean isAllLetters(){
-    return mAnswer.chars().allMatch(Character::isLetter);
-  }
+  //
+  // public Hangman(String answer){
+  //   //equate private variable tvalues to those in input
+  //   mAnswer = answer;
+  // }
+  //
+  // public boolean isNull(){
+  //   return mAnswer.equals("");
+  // }
+  //
+  // public boolean isAllLetters(){
+  //   return mAnswer.chars().allMatch(Character::isLetter);
+  // }
 
 }
